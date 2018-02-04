@@ -33,7 +33,7 @@ session = requests.Session()
 def create_troops_dictionary():
     """
     Create a dictionary with the troops list
-    :return: Tropps Dictionarie
+    :return: Tropps Dictionary
     """
     troops_dictionary = {}
     for troop_type in troops_type_list:
